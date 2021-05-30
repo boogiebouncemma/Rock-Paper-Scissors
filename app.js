@@ -47,7 +47,7 @@ function lose(userChoice, compChoice) {
 function draw(userChoice, compChoice) {
   const smallUserWord = "USER".fontsize(2).sub();
   const smallCompWord = "COMP".fontsize(2).sub();
-  result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals ${convertToWord(compChoice)}${smallCompWord}.<br />It's a draw.`;
+  result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals ${convertToWord(compChoice)}${smallCompWord}.<br />It's a draw 👀`;
   document.getElementById(userChoice).classList.add("gray-glow");
   setTimeout(function () {
     document.getElementById(userChoice).classList.remove("gray-glow")
