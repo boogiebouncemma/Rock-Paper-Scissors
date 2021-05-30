@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fcc6ae58ce.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">USER</div>
+      <div id="comp-label" class="badge">COMP</div>
+      <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>To start the game<br />choose your move:</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <p>
+          <span style="font-size: 48px;">
+            <i class="fas fa-hand-rock"></i>
+          </span>
+        </p>
+        <p>ROCK</p>
+      </div>
+      <div class="choice" id="p">
+        <p>
+          <span style="font-size: 48px;">
+            <i class="fas fa-hand-paper"></i>
+          </span>
+        </p>
+        <p>PAPER</p>
+      </div>
+      <div class="choice" id="s">
+        <p>
+          <span style="font-size: 48px;">
+            <i class="fas fa-hand-scissors"></i>
+          </span>
+        </p>
+        <p>SCISSORS</p>
+      </div>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
