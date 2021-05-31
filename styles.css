@@ -97,7 +97,17 @@ header > h1 {
   font-weight: bold;
   font-size: 20px;
   margin-top: 20px;
+  margin-bottom: 25px;
 }
+
+#comment {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-size: 10px;
+  margin-top: 25px;
+}
+
 
 .green-glow {
   border: 4px solid #4dcc7d;
@@ -112,4 +122,24 @@ header > h1 {
 .gray-glow {
   border: 4px solid #464647;
   box-shadow: 0 0 10px #25292b;
+}
+
+/* unvisited link */
+a:link {
+  color: #E2584D;
+}
+
+/* visited link */
+a:visited {
+  color: #E2584D;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #E2584D;
 }
